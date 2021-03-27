@@ -7,7 +7,7 @@ Instale e configure os serviços LAMP:
 * Apache 2;
 * MySQL;
 
-Após a finalização da instalação do MyWQL e preciso logar no Banco de Dados com um usuário com privilégios, como por exemplo:
+Após a finalização da instalação do MySQL e preciso logar com um usuário que tenha privilégios, como por exemplo:
 
 `mysql -u root -p`
   
