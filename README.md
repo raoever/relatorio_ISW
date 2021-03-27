@@ -25,8 +25,9 @@ No arquivo *WordPress.conf* você pode habilitar .htaccess adicionando estas lin
 
 `</Directory>`
 
+Salve o arquivo.<br>
 Crie o diretório para o WordPress: __/var/www/wordpress__.<br>
-Salve o arquivo e depois reinicie o servidor Apache usando o comando:
+Depois reinicie o servidor Apache usando o comando:
 
 `sudo systemctl restart apache2`
 
