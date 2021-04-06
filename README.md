@@ -85,7 +85,7 @@ Acesse o arquivo com:
 ### Configuração
 
 
-
+<br><br><br>
 ## Moodle
 ### Instalação
 Instale e configure os serviços LAMP:
