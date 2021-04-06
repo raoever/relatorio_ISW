@@ -83,6 +83,11 @@ Acesse o arquivo com:
 `http://seuIP/wordpress`
   
 ### Configuração
+Acesse em um browser a URL:
+
+`http://ipDoSeuServidor/wordpress`
+
+Escolha a linguagem de sua preferência.<br>
 
 
 <br><br><br>
@@ -118,3 +123,9 @@ Descompacte:
 Crie o diretório para o Moodle: __/var/www/moodledata__.<br>
 
 ### Configuração
+Acesse em um browser a URL:
+
+`http://ipDoSeuServidor/moodle`
+
+
+
