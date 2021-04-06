@@ -26,12 +26,12 @@ No arquivo *WordPress.conf* você pode habilitar .htaccess adicionando estas lin
 `</Directory>`
 
 Salve o arquivo.<br>
-Crie o diretório para o WordPress: __/var/www/wordpress__.<br>
 Depois reinicie o servidor Apache usando o comando:
 
 `sudo systemctl restart apache2`
 
-Acesse o diretório __/var/www/wordpress__ e baixe o arquivo do Wordpress:
+Crie o diretório para o WordPress: __/var/www/wordpress__.<br>
+Acesse o diretório __/var/www/wordpress__ e baixe os arquivos do Wordpress:
 
 `curl -O https://wordpress.org/latest.tar.gz`
 
@@ -85,8 +85,36 @@ Acesse o arquivo com:
 ### Configuração
 
 
+
 ## Moodle
 ### Instalação
+Instale e configure os serviços LAMP:
+* Apache 2;
+* MySQL;
+* PHP
 
+Após a finalização da instalação do MySQL e preciso logar com um usuário que tenha privilégios, como por exemplo:
+
+`mysql -u root -p`
+  
+Depois de entrar com o password crie um banco de dados separado para o Moodle, o exemplo abaixo cria um BD de nome MoodleDB: 
+
+`mysql> CREATE DATABASE MoodleDB DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;`
+
+Quando finalizar saia do prompt do MySQL.<br>
+Depois reinicie o servidor Apache usando o comando:
+
+`sudo systemctl restart apache2`
+
+Crie o diretório para o Moodle: __/var/www/moodle__.<br>
+Acesse o diretório __/var/www/moodle__ e baixe os arquivos do Moodle:
+
+`wget https://download.moodle.org/stable38/moodle-latest-38.tgz`
+
+Descompacte:
+
+`tar -zxvf moodle-latest-38.tgz`
+
+Crie o diretório para o Moodle: __/var/www/moodledata__.<br>
 
 ### Configuração
