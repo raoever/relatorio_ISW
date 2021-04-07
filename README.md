@@ -146,5 +146,7 @@ Acesse em um browser a URL:
 
 `http://ipDoSeuServidor/moodle`
 
+Escolha a linguagem de sua preferência.
+
 
 
