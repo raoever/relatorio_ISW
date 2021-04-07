@@ -99,15 +99,15 @@ Depois pressione o botão __Instalar WordPress__
 Então aparecerá uma tela confirmando a instalação do WordPress e o usuário com a senha escondida.<br>
 Pressione o botão __Acessar__ para ir para o login que dá acesso ao painel de controle.
 
-![Confirmação](https://github.com/raoever/relatorio_ISW/blob/main/wordpress/wordpress3.png)
+![Sucesso](https://github.com/raoever/relatorio_ISW/blob/main/wordpress/wordpress3.png)
 
 A tela de login será carregada.
 
-![Confirmação](https://github.com/raoever/relatorio_ISW/blob/main/wordpress/wordpress4.png)
+![Login](https://github.com/raoever/relatorio_ISW/blob/main/wordpress/wordpress4.png)
 
 E então a tela do Painel.
 
-![Confirmação](https://github.com/raoever/relatorio_ISW/blob/main/wordpress/wordpress5.png)
+![Painel WordPress](https://github.com/raoever/relatorio_ISW/blob/main/wordpress/wordpress5.png)
 
 <br><br><br>
 ## Moodle
@@ -148,5 +148,50 @@ Acesse em um browser a URL:
 
 Escolha a linguagem de sua preferência.
 
+![Linguagem](https://github.com/raoever/relatorio_ISW/blob/main/moodle/moodle1.png)
 
+Confirme os caminhos do Endereço web, Diretório Moodle e Diretório de dados clicando em __Próximo__.
 
+![Caminhos](https://github.com/raoever/relatorio_ISW/blob/main/moodle/moodle2.png)
+
+Escolha o drive do banco de dados e clique em __Próximo__.
+
+![Drive Banco de Dados](https://github.com/raoever/relatorio_ISW/blob/main/moodle/moodle3.png)
+
+Entre com os dados para a configuração do Banco de Dados.
+
+![Configuração Banco de Dados](https://github.com/raoever/relatorio_ISW/blob/main/moodle/moodle4.png)
+
+Confirme que leu e entendeu as cláusulas sobre os direitos autorais clicando em __Confirmar__.
+
+![Direitos Autorais](https://github.com/raoever/relatorio_ISW/blob/main/moodle/moodle5.png)
+
+O Sistema fará uma checagem sobre os requerimentos mínimos e marcará de vermelho as pendências obrigatórias.
+
+![Pendências](https://github.com/raoever/relatorio_ISW/blob/main/moodle/moodle6.png)
+
+Caso não tenha instalado o __php intl__ faça a instalação via apt-get:
+
+`sudo apt-get install php-intl`
+
+![Instalação php intl](https://github.com/raoever/relatorio_ISW/blob/main/moodle/moodle7.png)
+
+Depois reinicie o servidor Apache usando o comando:
+
+`sudo systemctl restart apache2`
+
+Se não houver mais pendências clique no botão continuar.
+
+![Sem pendências](https://github.com/raoever/relatorio_ISW/blob/main/moodle/moodle8.png)
+
+Clique no botão __Continuar__ depois que o sistema terminar de processar.
+
+![Checagem](https://github.com/raoever/relatorio_ISW/blob/main/moodle/moodle9.png)
+
+Será carregada uma tela para configuração do administrador principal, onde deverá ser preenchido pelo menos os campos de senha, primeiro nome, sobrenome e email.
+
+![Cadastro Administrador Principal](https://github.com/raoever/relatorio_ISW/blob/main/moodle/moodle10.png)
+
+Por final será carregada a tela do Painel do Moodle.
+
+![Painel Moodle](https://github.com/raoever/relatorio_ISW/blob/main/moodle/moodle10.png)
