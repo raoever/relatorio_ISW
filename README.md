@@ -89,25 +89,25 @@ Acesse em um browser a URL:
 
 Escolha a linguagem de sua preferência.<br>
 
-![Linguagem](https://github.com/raoever/relatorio_ISW/blob/main/wordpress1.png)
+![Linguagem](https://github.com/raoever/relatorio_ISW/blob/main/wordpress/wordpress1.png)
 
 Digite o título do site, o nome do usuário, uma senha e um e-mail.<br>
 Depois pressione o botão __Instalar WordPress__
 
-![Informações básicas](https://github.com/raoever/relatorio_ISW/blob/main/wordpress2.png)
+![Informações básicas](https://github.com/raoever/relatorio_ISW/blob/main/wordpress/wordpress2.png)
 
 Então aparecerá uma tela confirmando a instalação do WordPress e o usuário com a senha escondida.<br>
 Pressione o botão __Acessar__ para ir para o login que dá acesso ao painel de controle.
 
-![Confirmação](https://github.com/raoever/relatorio_ISW/blob/main/wordpress3.png)
+![Confirmação](https://github.com/raoever/relatorio_ISW/blob/main/wordpress/wordpress3.png)
 
 A tela de login será carregada.
 
-![Confirmação](https://github.com/raoever/relatorio_ISW/blob/main/wordpress4.png)
+![Confirmação](https://github.com/raoever/relatorio_ISW/blob/main/wordpress/wordpress4.png)
 
 E então a tela do Painel.
 
-![Confirmação](https://github.com/raoever/relatorio_ISW/blob/main/wordpress5.png)
+![Confirmação](https://github.com/raoever/relatorio_ISW/blob/main/wordpress/wordpress5.png)
 
 <br><br><br>
 ## Moodle
