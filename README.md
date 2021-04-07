@@ -89,6 +89,7 @@ Acesse em um browser a URL:
 
 Escolha a linguagem de sua preferência.<br>
 
+![Linguagem]()
 
 <br><br><br>
 ## Moodle
